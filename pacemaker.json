@@ -1,4 +1,5 @@
 {
+  "$schema": "https://lnav.org/schemas/format-v1.schema.json",
   "pacemaker_log": {
     "title": "pacemaker log",
     "description": "Log format for pacemaker cluster management framework",
@@ -18,15 +19,19 @@
         "kind": "integer",
         "identifier": true
       },
-      "procname": {
+      "subsystem": {
         "kind": "string",
         "identifier": true
       },
-      "function": {
+      "resourceSub": {
         "kind": "string",
         "identifier": true
       },
       "resourceSubPID": {
+        "kind": "integer",
+        "identifier": true
+      },
+      "resourcetype": {
         "kind": "string",
         "identifier": true
       }
