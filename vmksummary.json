@@ -1,4 +1,5 @@
 {
+  "$schema": "https://lnav.org/schemas/format-v1.schema.json",
   "vmksummary_log": {
     "title": "vmware vmksummary",
     "description": "vmware's vmksummary log format",

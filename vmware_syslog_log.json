@@ -1,4 +1,5 @@
 {
+  "$schema": "https://lnav.org/schemas/format-v1.schema.json",
   "vm_syslog_log": {
     "title": "vmware syslog",
     "description": "vmware's syslog format",

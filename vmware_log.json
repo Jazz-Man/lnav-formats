@@ -1,4 +1,5 @@
 {
+  "$schema": "https://lnav.org/schemas/format-v1.schema.json",
   "vmware_guest_log": {
     "title": "esx vmware.log",
     "description": "vmware's vmware.log format",

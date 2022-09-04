@@ -1,4 +1,5 @@
 {
+  "$schema": "https://lnav.org/schemas/format-v1.schema.json",
   "anaconda_syslog": {
     "title": "Anaconda Syslog log format",
     "description": "Log format used by Anaconda when issuing syslog lines.",

@@ -1,4 +1,5 @@
 {
+  "$schema": "https://lnav.org/schemas/format-v1.schema.json",
   "bash_history": {
     "title": "Bash History",
     "description": "The .bash_history file format.",

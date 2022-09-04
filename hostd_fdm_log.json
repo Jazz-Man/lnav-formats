@@ -1,4 +1,5 @@
 {
+  "$schema": "https://lnav.org/schemas/format-v1.schema.json",
   "hostd_fdm_log": {
     "title": "vmware hostd",
     "description": "vmware's hostd log format",

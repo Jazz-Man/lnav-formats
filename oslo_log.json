@@ -1,4 +1,5 @@
 {
+  "$schema": "https://lnav.org/schemas/format-v1.schema.json",
   "oslo_log": {
     "title": "OpenStack oslo.log formats",
     "description": "Log formats used by OpenStack via oslo.log",

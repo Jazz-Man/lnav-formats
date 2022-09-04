@@ -1,4 +1,5 @@
 {
+  "$schema": "https://lnav.org/schemas/format-v1.schema.json",
   "selinux_audit": {
     "title": "SELinux audit log format",
     "description": "Log format for SELinux audit messages",

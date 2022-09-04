@@ -1,4 +1,5 @@
 {
+  "$schema": "https://lnav.org/schemas/format-v1.schema.json",
   "vum_log4cpp": {
     "title": "Vmware Update Manager log4cpp",
     "description": "VMware Update Manager main log file",

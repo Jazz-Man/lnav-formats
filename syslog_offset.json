@@ -1,4 +1,5 @@
 {
+  "$schema": "https://lnav.org/schemas/format-v1.schema.json",
   "syslog_offset": {
     "title": "Syslog",
     "description": "The system logger format with an offset included",

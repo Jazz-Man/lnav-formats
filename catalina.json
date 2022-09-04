@@ -1,11 +1,12 @@
 {
+  "$schema": "https://lnav.org/schemas/format-v1.schema.json",
   "catalina_log": {
     "title": "catalina log format",
     "description": "Log format used by catalina",
     "url": "http://catalina",
     "regex": {
       "main": {
-        "pattern": "^(?<timestamp>\\d{4}[/-]\\d{2}[/-]\\d{2} \\d{2}:\\d{2}:\\d{2}(?:\\,\\d+)?) \\[(?<process>[\\w-]+)\\] (?<alert_level>\\w+)\\s+(?<class>[\\w._]+)?(?:- )?(?<body>.*)$"
+        "pattern": "^(?<timestamp>\\d{4}[/-]\\d{2}[/-]\\d{2} \\d{2}:\\d{2}:\\d{2}(?:\\,\\d+)?) \\[(?<process>[\\w-]+)\\] (?<level>\\w+)\\s+(?<class>[\\w._]+)?(?:- )?(?<body>.*)$"
       }
     },
     "value": {
@@ -13,16 +14,9 @@
         "kind": "string",
         "identifier": true
       },
-      "event": {
+      "process": {
         "kind": "string",
         "identifier": true
-      },
-      "exception": {
-        "kind": "string",
-        "identifier": true
-      },
-      "body": {
-        "kind": "string"
       }
     },
     "timestamp-format": [

@@ -1,4 +1,5 @@
 {
+  "$schema": "https://lnav.org/schemas/format-v1.schema.json",
   "minecraft_forge_log": {
     "title": "minecraft",
     "description": "The log format used in minecraft forge server logs",

@@ -1,4 +1,5 @@
 {
+  "$schema": "https://lnav.org/schemas/format-v1.schema.json",
   "vc_vmware_identity_sts": {
     "title": "Vmware vCenter Identity STS Log",
     "description": "Vmware vCenter Identity STS Log",

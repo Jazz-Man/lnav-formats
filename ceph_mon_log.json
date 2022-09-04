@@ -1,4 +1,5 @@
 {
+  "$schema": "https://lnav.org/schemas/format-v1.schema.json",
   "ceph_mon_log": {
     "title": "Ceph Monitor Log",
     "description": "Log format for ceph storage monitors",

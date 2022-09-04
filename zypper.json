@@ -1,4 +1,5 @@
 {
+  "$schema": "https://lnav.org/schemas/format-v1.schema.json",
   "zypper_log": {
     "title": "zypper operations log",
     "description": "zypper log format found in SUSE & SLES",

@@ -1,4 +1,5 @@
 {
+  "$schema": "https://lnav.org/schemas/format-v1.schema.json",
   "vmkeventd_log": {
     "title": "vmware vmkeventd",
     "description": "vmware's vmkeventd log format",

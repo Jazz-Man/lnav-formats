@@ -1,4 +1,5 @@
 {
+  "$schema": "https://lnav.org/schemas/format-v1.schema.json",
   "esxupdate_log": {
     "title": "VMWare ESXUpdate Log",
     "description": "Log format used in /var/log/esxupdate.log",

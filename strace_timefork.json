@@ -1,4 +1,5 @@
 {
+  "$schema": "https://lnav.org/schemas/format-v1.schema.json",
   "strace_timefork_log": {
     "title": "Strace with timestamps and forks",
     "description": "The strace output format with timestamps, forking, and a long string length to avoid truncation. Command example = strace -s 2048 -f -tt -o /path/to/output.file <binary_to_trace>",

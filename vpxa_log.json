@@ -1,4 +1,5 @@
 {
+  "$schema": "https://lnav.org/schemas/format-v1.schema.json",
   "vcenter_vpxa_log": {
     "title": "vCenter vpx agent log format",
     "description": "Log format for the vpx agent on an ESXi host",

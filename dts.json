@@ -1,4 +1,5 @@
 {
+  "$schema": "https://lnav.org/schemas/format-v1.schema.json",
   "alogcat": {
     "title": "dts",
     "description": "Log format used by Adam's dts utility",

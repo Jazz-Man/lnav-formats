@@ -1,4 +1,5 @@
 {
+  "$schema": "https://lnav.org/schemas/format-v1.schema.json",
   "smb_log": {
     "title": "Samba log format",
     "description": "Log format used by Samba",

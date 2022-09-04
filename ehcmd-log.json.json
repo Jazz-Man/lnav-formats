@@ -1,4 +1,5 @@
 {
+  "$schema": "https://lnav.org/schemas/format-v1.schema.json",
   "eqlogic_ehcmd_log": {
     "title": "EQLogic VMware CIM Log",
     "description": "The ehcmd.log file found at /var/log/eqlogic in a support bundle",

@@ -1,4 +1,5 @@
 {
+  "$schema": "https://lnav.org/schemas/format-v1.schema.json",
   "mythbackend_log": {
     "title": "MythTV Backend log format",
     "description": "Log format used by the MythTV backend process",

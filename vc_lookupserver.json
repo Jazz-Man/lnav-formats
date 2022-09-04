@@ -1,4 +1,5 @@
 {
+  "$schema": "https://lnav.org/schemas/format-v1.schema.json",
   "vc_lookupServer": {
     "title": "Vmware vCenter LookupServer Log",
     "description": "Vmware vCenter LookupServer Log",

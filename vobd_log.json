@@ -1,4 +1,5 @@
 {
+  "$schema": "https://lnav.org/schemas/format-v1.schema.json",
   "vobd_log": {
     "title": "vmware vobd",
     "description": "vmware's vobd log format",

@@ -1,4 +1,5 @@
 {
+  "$schema": "https://lnav.org/schemas/format-v1.schema.json",
   "squid_access_log": {
     "title": "Squid access log format",
     "description": "Log format used by the Squid HTTP cache",

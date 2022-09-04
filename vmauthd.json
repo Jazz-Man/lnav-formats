@@ -1,4 +1,5 @@
 {
+  "$schema": "https://lnav.org/schemas/format-v1.schema.json",
   "vmauthd_log": {
     "title": "vmware vmauthd",
     "description": "vmware's vmauthd log format",

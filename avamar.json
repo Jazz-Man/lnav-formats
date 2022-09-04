@@ -1,4 +1,5 @@
 {
+  "$schema": "https://lnav.org/schemas/format-v1.schema.json",
   "avamar_log": {
     "title": "Avamar appliance logs",
     "description": "Log format found in avamar backup appliance. AKA VMware Data Protection.",

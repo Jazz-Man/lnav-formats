@@ -1,4 +1,5 @@
 {
+  "$schema": "https://lnav.org/schemas/format-v1.schema.json",
   "vmkdevmgr_log": {
     "title": "VMWare VMKDevmanager Log",
     "description": "Log format used in /var/log/vmkdevmgr.log",

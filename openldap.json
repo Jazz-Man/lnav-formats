@@ -1,4 +1,5 @@
 {
+  "$schema": "https://lnav.org/schemas/format-v1.schema.json",
   "openldap": {
     "title": "OpenLDAP log format",
     "description": "Log format used by the Directory Services daemon for OpenLDAP",
