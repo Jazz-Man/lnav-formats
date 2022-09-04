@@ -1,4 +1,5 @@
 {
+  "$schema": "https://lnav.org/schemas/format-v1.schema.json",
   "rubylogger": {
     "title": "Ruby Logger format",
     "description": "Log format used by Ruby's std::lib::Logger class",
@@ -10,28 +11,13 @@
     },
     "level-field": "alert_level",
     "level": {
-      "info": "UNKNOWN",
+      "info": "INFO",
       "error": "ERROR",
       "warning": "WARN",
       "debug": "DEBUG",
       "fatal": "FATAL"
     },
     "value": {
-      "alert_level": {
-        "kind": "string",
-        "identifier": true
-      },
-      "source": {
-        "kind": "string",
-        "identifier": true
-      },
-      "debug_level": {
-        "kind": "string",
-        "identifier": true
-      },
-      "body": {
-        "kind": "string"
-      },
       "pid": {
         "kind": "integer",
         "identifier": true
