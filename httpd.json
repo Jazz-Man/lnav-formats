@@ -68,8 +68,8 @@
         "kind": "string",
         "identifier": true
       },
-      "error": {
-        "kind": "string",
+      "errnum": {
+        "kind": "integer",
         "identifier": true
       },
       "client": {
