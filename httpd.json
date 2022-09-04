@@ -1,4 +1,5 @@
 {
+  "$schema": "https://lnav.org/schemas/format-v1.schema.json",
   "https_access_log": {
     "title": "access log format for HTTPS",
     "description": "Log format used by Apache HTTPD for HTTPS connections",
@@ -11,7 +12,8 @@
     "value": {
       "client": {
         "kind": "string",
-        "identifier": true
+        "identifier": true,
+        "collate": "ipaddress"
       },
       "wrapper": {
         "kind": "string",
@@ -36,9 +38,6 @@
       "resp_size": {
         "kind": "integer",
         "identifier": true
-      },
-      "body": {
-        "kind": "string"
       }
     },
     "sample": [
@@ -75,10 +74,8 @@
       },
       "client": {
         "kind": "string",
-        "identifier": true
-      },
-      "body": {
-        "kind": "string"
+        "identifier": true,
+        "collate": "ipaddress"
       }
     },
     "sample": [
@@ -105,9 +102,10 @@
     "value": {
       "src_addr": {
         "kind": "string",
-        "identifier": true
+        "identifier": true,
+        "collate": "ipaddress"
       },
-      "transpoort": {
+      "transport": {
         "kind": "string",
         "identifier": true
       },
@@ -123,7 +121,7 @@
         "kind": "string",
         "identifier": true
       },
-      "version": {
+      "proto_vers": {
         "kind": "float"
       },
       "size": {
