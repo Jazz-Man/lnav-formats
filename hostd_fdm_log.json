@@ -40,7 +40,7 @@
         "kind": "string",
         "identifier": true
       },
-      "originid": {
+      "originatorid": {
         "kind": "string",
         "identifier": true
       },
@@ -56,15 +56,7 @@
         "kind": "string",
         "identifier": true
       },
-      "vmsub": {
-        "kind": "string",
-        "identifier": true
-      },
       "vmxpath": {
-        "kind": "string",
-        "identifier": true
-      },
-      "migrationid": {
         "kind": "string",
         "identifier": true
       },
