@@ -1,33 +1,50 @@
 {
-    "zypper_log" : {
-        "title": "zypper operations log",
-        "description": "zypper log format found in SUSE & SLES",
-        "url": "",
-        "regex": {
-            "std": {
+  "zypper_log": {
+    "title": "zypper operations log",
+    "description": "zypper log format found in SUSE & SLES",
+    "url": "",
+    "regex": {
+      "std": {
         "pattern": "^(?<timestamp>\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2}) <\\d> (?<hostname>\\S+)\\((?<pid>\\d+)\\) \\[(?<process>[\\:\\+\\-\\.\\w\\d]+)\\] (?<sourcefile>[\\-\\w]+\\.\\w+)\\((?<method>\\S+)\\)\\:(?<line>\\d+) (\\- )?(?<body>.*)$"
-            }
-        },
-        "level-field": "body",
-        "level": {
-            "warning"   : "WARN",
-            "debug"     : "DEBUG",
-            "info"      : "INFO",
-            "error"     : "ERROR"
-        },
-        "value": {
-                    "hostname" :   { "kind": "string", "identifier": true },
-                    "process" :     { "kind": "string", "identifier": true },
-                    "sourcefile" :  { "kind": "string", "identifier": true },
-                    "pid" :         { "kind": "integer", "identifier": true },
-                    "method" :      { "kind": "string", "identifier": true },
-                    "line" :        { "kind": "integer", "identifier": true }
-        },
-
-        "sample": [
-            {
-                "line" : "2018-05-04 10:44:40 <1> dev-md1-db(37408) [zypp] PathInfo.cc(dirForEach):553 readdir /var/cache/zypp/raw"
-            }
-        ]
-    }
+      }
+    },
+    "level-field": "body",
+    "level": {
+      "warning": "WARN",
+      "debug": "DEBUG",
+      "info": "INFO",
+      "error": "ERROR"
+    },
+    "value": {
+      "hostname": {
+        "kind": "string",
+        "identifier": true
+      },
+      "process": {
+        "kind": "string",
+        "identifier": true
+      },
+      "sourcefile": {
+        "kind": "string",
+        "identifier": true
+      },
+      "pid": {
+        "kind": "integer",
+        "identifier": true
+      },
+      "method": {
+        "kind": "string",
+        "identifier": true
+      },
+      "line": {
+        "kind": "integer",
+        "identifier": true
+      }
+    },
+    "sample": [
+      {
+        "line": "2018-05-04 10:44:40 <1> dev-md1-db(37408) [zypp] PathInfo.cc(dirForEach):553 readdir /var/cache/zypp/raw"
+      }
+    ]
+  }
 }

@@ -1,45 +1,41 @@
 {
-    "vcenter_vpxa_log" : {
-        "title": "vCenter vpx agent log format",
-        "description": "Log format for the vpx agent on an ESXi host",
-        "url": "",
-        "regex": {
-            "std": {
-                "pattern": "^(?<timestamp>\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}\\.\\d{3}Z) (?:(Section for VMware ESX, pid=\\d+, version=\\S+, build=\\d+, option=\\w+)|(?<level>\\w+) vpxa\\[(?<processid>[A-F0-9]+)\\] \\[(?<originatorid>[\\w\\d@]+) sub=(?<subsystem>\\S+)( opID=(?<operationid>[:A-Za-z0-9@\\-]+))?\\] (?:\\[(?<function>\\w+)\\])?(?<body>.*))$"
-            }
-        },
-        "level-field": "level",
-        "opid-field" : "operationid",
-        "value": {
-            "processname": {
-                "kind": "string",
-                "identifier": true
-            },
-            "processid" : {
-                "kind" : "string",
-                "identifier" : true
-            },
-            "subsystem": {
-                "kind": "string",
-                "identifier": true
-            },
-            "originatorid" : {
-                "kind" : "string",
-                "identifier" : true
-            },
-            "operationid" : {
-                "kind" : "string",
-                "identifier" : true
-            },
-            "function" : {
-                "kind" : "string",
-                "identifier" : true
-            }
-        },
-        "sample": [
-            {
-                "line" : "2016-05-31T19:10:10.081Z verbose vpxa[7F41BB70] [Originator@6876 sub=vpxaVmomi opID=HB-host-425@47907-3f55ed0b-f8] [VpxaVmomi] SetStatusDone was called with syncGenNo (47907)"
-            }
-        ]
-    }
+  "vcenter_vpxa_log": {
+    "title": "vCenter vpx agent log format",
+    "description": "Log format for the vpx agent on an ESXi host",
+    "url": "",
+    "regex": {
+      "std": {
+        "pattern": "^(?<timestamp>\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}\\.\\d{3}Z) (?:(Section for VMware ESX, pid=\\d+, version=\\S+, build=\\d+, option=\\w+)|(?<level>\\w+) vpxa\\[(?<processid>[A-F0-9]+)\\] \\[(?<originatorid>[\\w\\d@]+) sub=(?<subsystem>\\S+)( opID=(?<operationid>[:A-Za-z0-9@\\-]+))?\\] (?:\\[(?<function>\\w+)\\])?(?<body>.*))$"
+      }
+    },
+    "level-field": "level",
+    "opid-field": "operationid",
+    "value": {
+      "processid": {
+        "kind": "string",
+        "identifier": true
+      },
+      "subsystem": {
+        "kind": "string",
+        "identifier": true
+      },
+      "originatorid": {
+        "kind": "string",
+        "identifier": true
+      },
+      "operationid": {
+        "kind": "string",
+        "identifier": true
+      },
+      "function": {
+        "kind": "string",
+        "identifier": true
+      }
+    },
+    "sample": [
+      {
+        "line": "2016-05-31T19:10:10.081Z verbose vpxa[7F41BB70] [Originator@6876 sub=vpxaVmomi opID=HB-host-425@47907-3f55ed0b-f8] [VpxaVmomi] SetStatusDone was called with syncGenNo (47907)"
+      }
+    ]
+  }
 }

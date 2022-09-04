@@ -5,7 +5,7 @@
     "url": "",
     "regex": {
       "std": {
-        "pattern": "\\[(?<timestamp>\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2}:\\d{3}) '(?:(?<processname>\\w+)|(?<parentproc>\\w+)\\.(?<procaction>\\w+\\{\\d+}))' \\d+ (?<level>\\w+)\\]\\s+\\[(?<procname2>\\w+), (?<meaningfulNumber>\\d+)\\]\\s+(?<body>.*)$"
+        "pattern": "\\[(?<timestamp>\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2}:\\d{3}) '(?:(?<processname>\\w+)|(?<parentproc>\\w+)\\.(?<procaction>\\w+\\{\\d+}))' \\d+ (?<level>\\w+)\\]\\s+\\[(?<procname>\\w+), (?<meaningfulNumber>\\d+)\\]\\s+(?<body>.*)$"
       }
     },
     "level-field": "level",
@@ -23,10 +23,6 @@
         "identifier": true
       },
       "procname": {
-        "kind": "string",
-        "identifier": true
-      },
-      "procname2": {
         "kind": "string",
         "identifier": true
       },
